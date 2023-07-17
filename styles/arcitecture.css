@@ -19,6 +19,7 @@
     color: #727272;
   }
 
+
 /* header styles */
 header {
   background: rgba(255, 144, 14, 0.1);
@@ -54,10 +55,11 @@ nav li a {
   margin: 0 auto;
 }
 .banner-title {
-  font-size: 4rem;
-  font-weight: 700;
-  color: #131313;
-}
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 2%;
+  }
 
 .banner img {
   margin-top: 20px;
@@ -93,13 +95,38 @@ main {
 .team-title .quick{
     font-weight: 500;
 }
-.team-title .of{
-    color: #131313;
-    font-weight: 700;
-}
 .team-title .text-feature{
     color: #FF900E;
     font-weight: 700;
+}
+/* some facts  */
+.text-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-bottom: 2%;
+}
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card-container .card{
+    border-radius: 8px;
+border: 1px solid #FF900E;
+text-align: center;
+padding: 30px;
+}
+.facts-card-container .card-stats{
+font-size: 2.8rem;
+color: #424242;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.facts-card-container .card-title{
+font-weight: 600;
+font-size: 1.25rem;
+margin-top: 5px;
+margin-bottom: 5px;
 }
 
 /*responsive for mobile  */
