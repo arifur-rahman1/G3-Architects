@@ -143,6 +143,18 @@ margin-bottom: 5px;
 .sponsors-img img{
     width: 165px;
 }
+/* footer section */
+footer{
+    border-radius: 8px;
+background: #FFF4E7;
+margin: 30px 190px;
+
+}
+footer p{
+    text-align: center;
+    padding: 10px ;
+    
+}
 
 /*responsive for mobile  */
 @media screen and (max-width: 576px) {
@@ -163,6 +175,10 @@ margin-bottom: 5px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 1.5rem;
+}
+footer{
+   
+    margin: 50px 0px;
 }
 }
 
@@ -186,5 +202,9 @@ margin-bottom: 5px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
+}
+footer{
+   
+    margin: 50px 5px;
 }
 }
